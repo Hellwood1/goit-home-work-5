@@ -491,14 +491,14 @@
       </div>
     </footer>
     <!-- BACK DROP WITH MODAL WINDOW -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal-window">
-        <button class="close-btn">
+        <button class="close-btn" type="button">
           <svg class="icon-close" width="8" height="8" aria-label="icon close">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="rewier-form-text">
+        <p class="review-form-text">
           Leave your contacts and we will call you back
         </p>
         <form class="review-form">
@@ -509,7 +509,7 @@
                 class="review-form-input"
                 type="text"
                 id="user-name"
-                name="user_name"
+                name="user-name"
                 pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
                 title="Name Surname"
                 required
@@ -517,7 +517,7 @@
               <svg
                 class="review-form-icon"
                 width="18"
-                height="18"
+                height="24"
                 aria-label="user-icon"
               >
                 <use href="./images/icons.svg#icon-person"></use>
@@ -576,7 +576,7 @@
             >
             <textarea
               class="review-form-comment"
-              name="user_comment"
+              name="user-comment"
               id="user-comment"
               placeholder="Text input"
             ></textarea>
@@ -587,15 +587,15 @@
               class="review-form-checkbox visually-hidden"
               type="checkbox"
               id="user-privacy"
-              name="user_privacy"
+              name="user-privacy"
               value="true"
             />
             <label class="review-form-checkbox-label" for="user-privacy"
               ><span class="review-form-own-checkbox"
                 ><svg
                   class="checkbox-icon"
-                  width="10px"
-                  height="8px"
+                  width="10"
+                  height="8"
                   aria-label="check mark icon"
                 >
                   <use href="./images/icons.svg#icon-vector"></use></svg></span
