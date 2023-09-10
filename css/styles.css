@@ -607,6 +607,9 @@ input {
   letter-spacing: 0.02em;
   color: var(--color-grey);
 }
+.review-form-field {
+  margin-bottom: 8px;
+}
 .review-form-field-wrapper {
   margin-bottom: 16px;
 }
